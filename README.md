@@ -8,11 +8,18 @@
 This moduel automatically adds `None` return type to every init function, i.e.
 ```py
 def __init__(...) -> None:
+    ......
+```
+
+## Install
+
+```sh
+pipx install git+https://github.com/soraxas/py-return-None-for-__init__
 ```
 
 ## Usage
 
-``sh
+```sh
 usage: py-add-return-None-to-all-init [-h] [-d] PATH
 ```
 
